@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:'FontAwesome';
+    src: url('./fontawesome-webfont.woff2') format('woff2');
+    font-weight:normal;
+    font-style:normal}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "FontAwesome";
+}
+.menu{
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #f44336;
+    width: 100%;
+    /* height: 53px; */
+    align-items: center;
+    box-shadow: 0 0 5px black;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 17.5px 25px;
+    letter-spacing: 1px;
+}
+.menu .first-child{
+    color: black;
+    background-color: white;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+.menu .first-child:hover{
+    background-color: silver;
+}
+/* .menu div{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+} */
+/* .menu__home
+    background-color: white;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+} */
+/* .menu__home:hover{
+    background-color: silver;
+} */
+/* .menu__home a{
+    color: black;
+    text-decoration: none;
+} */
+/* .menu__link1{
+    height: 53px;
+    display: flex;
+    align-items: center;
+} */
+/* .menu__link1 a{
+    color: white;
+    text-decoration: none;
+} */
+/* .menu__link1:hover{
+    background-color: white;
+} */
+/* .menu__link1:hover a{
+    color: black;
+} */
+
+.capital-1{
+    height: 510px;
+    width: 100%;
+    background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.capital-1__title{
+    font-size: 80px;
+    color: white;
+}
+.capital-1__text{
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+}
+.capital-1__button{
+    font-size: 23px;
+    margin-top: 60px;
+}
+.capital-1__button a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 15px 20px 15px 20px;
+    transition: color 0.5s, background-color 0.5s;
+}
+.capital-1__button a:hover{
+    color: black;
+    background-color: silver;
+}
+.anchor{
+    display: flex;
+    text-align: left;
+    /* width: 100%; */
+    /* height: 514px; */
+    margin: 90px auto;
+}
+.anchor__title{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.anchor__text-1{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.anchor__text-2{
+    color: rgb(129, 129, 129);
+}
+.anchor__icon::before{
+    content: "\f13d";
+    font-size: 225px;
+    color: #f44336;
+}
+.anchor__anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.cup{
+    box-sizing: border-box;
+    text-align: left;
+    /* width: 700px; */
+    /* height: 514px; */
+    margin: 90px auto;
+    /* padding: 90px 0; */
+    /* background-color: rgb(226, 226, 226); */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+}
+.capital-cup{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+}
+.cup__cup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.cup__icon::before{
+    content: "\f0f4";
+    font-size: 225px;
+    color: #f44336;
+}
+.live-life{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(98, 98, 98);
+    color: white;
+    font-size: 30px;
+    line-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.program{
+    color: rgb(93, 93, 93);
+    margin: 105px 0 65px 0;
+    font-size: 25px;
+}
+.w3css{
+    color: rgb(88, 88, 88);
+    margin: 0 0 105px 0;
+}
+.w3css a{
+    color: rgb(88, 88, 88);
+}
+.F:hover{
+    color: rgb(153, 153, 153);
+}
+.I:hover{
+    color: rgb(153, 153, 153);
+}
+.S:hover{
+    color: rgb(153, 153, 153);
+}
+.P:hover{
+    color: rgb(153, 153, 153);
+}
+.T:hover{
+    color: rgb(153, 153, 153);
+}
+.L:hover{
+    color: rgb(153, 153, 153);
+}
+.F::before{
+    content: "\f230";
+}
+.I::before{
+    content: "\f16d";
+}
+.S::before{
+    content: "\f2ab";
+}
+.P::before{
+    content: "\f231";
+}
+.T::before{
+    content: "\f099";
+}
+.L::before{
+    content: "\f0e1";
+}
